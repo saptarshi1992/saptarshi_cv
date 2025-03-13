@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saptarshi</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f4f4f4;
+      }
+      .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 100vh;
+        background: #222;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        overflow-y: auto;
+      }
+      .sidebar img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 3px solid white;
+      }
+      .sidebar nav a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+      }
+      .sidebar nav a:hover {
+        color: #ffcc00;
+      }
+      .content {
+        margin-left: 270px;
+        padding: 20px;
+      }
+      .mobile-nav {
+        display: none;
+      }
+      @media (max-width: 768px) {
+        .sidebar {
+          position: relative;
+          width: 100%;
+          height: auto;
+          text-align: center;
+          padding-bottom: 10px;
+        }
+        .content {
+          margin-left: 0;
+        }
+        .mobile-nav {
+          display: block;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <img src="avatar.jpg" alt="Avatar">
+      <h2>Saptarshi Chakraborty</h2>
+      <p>Software Developer</p>
+      <nav>
+        <a href="#about">ABOUT</a>
+        <a href="#resume">RESUME</a>
+        <a href="#contact">CONTACT</a>
+        <a href="https://sites.google.com/view/thesaptarshi/projects?authuser=0">PROJECTS</a>
+        <a href="https://sites.google.com/view/thesaptarshi/lessons-and-notes?authuser=0">NOTES</a>
+        <a href="https://sites.google.com/view/thesaptarshi/certificates?authuser=0">CERTIFICATES</a>
+        <a href="https://drive.google.com/file/d/1jXzNxwuToiqVPU8BiZVmhD4g0l8cw3_k/view" target="_blank" class="w3-button w3-amber w3-round-large">DOWNLOAD CV</a>
+      </nav>
+      <div class="w3-margin-top">
+        <!-- <a href="#facebook" target="_blank"><i data-feather="facebook"></i></a> -->
+        <!-- <a href="#instagram" target="_blank"><i data-feather="googlesite"></i></a> -->
+        <a href="https://github.com/saptarshi1992" target="_blank"><i data-feather="github"></i></a>
+        <a href="https://www.linkedin.com/in/saptarshi-chakraborty-033991148/" target="_blank"><i data-feather="linkedin"></i></a>
+      </div>
+    </div>
+    <div class="content">
+      <h2 id="about">About</h2>
+      <p>As a versatile and results-driven software engineer, I bring a wealth of experience from my time at the National Digital Library of India. 
+        My work has focused on developing and optimizing digital platforms that empower educational initiatives, including UI and database design, multi-lingual support, data acquisition, and automating content management.Currently,
+        I am passionate about the MERN stack and am honing my skills in Node.js, Express, MongoDB, and React. </p>
+      <p>My goal is to leverage these modern technologies to create dynamic and efficient web applications that deliver outstanding user experiences.My commitment to excellence drives me to continuously expand my skill set and stay updated with the latest trends in web development.
+        I thrive in collaborative environments where I can contribute innovative solutions and drive meaningful projects.Let's connect and discuss how my expertise in web development and my interest in the MERN stack can bring value to your next project!</p>
+      <h2 id="resume">Resume</h2>
+       <!--EMPLOYMENT HISTORY SECTION-->
+       <h3 class="w3-border-amber">MY EMPLOYMENT HISTORY</h3>
+       <div class="">
+         <h4>Software Engineer at the <a href="https://www.ndl.gov.in/">National Digital Library of India</a></h4>
+         <p>August 2018 - Present</p>
+         <ul class="w3-ul" style="font-weight: 500;">
+           <li>Spearheaded the development of the National Digital Library of India School vertical, optimizing UI and database design.</li>
+           <li>Enhanced the multi-lingual experience across the National Digital Library of India website and app.</li>
+           <li>Mastered web data crawling to enrich our data acquisition system.</li>
+           <li>Automated metadata extraction and enrichment processes for seamless content management.</li>
+           <li>Refined and maintained core National Digital Library of India website and REST API modules for superior performance.</li>
+           <li>Boosted internal product efficiency with caching solutions such as APCu and Redis.</li>
+           <li>Streamlined processes with automated tasks using Shell Script.</li>
+           <li>Committed to delivering exceptional user experiences and driving continuous improvement in digital education resources.</li>
+         </ul>
+       </div>
+       <div class="">
+         <h4>Web Developer at the SRIC IIT Kharagpur</h4>
+         <p>January 2017 - June 2018 </p>
+         <ul class="w3-ul" style="font-weight: 500;">
+           <li>Designed and developed the TLC project website, optimizing database architecture and user interface for seamless interaction.</li>
+           <li>Leveraged web data crawling techniques to integrate diverse sources into the data system.</li>
+           <li>Created engaging educational content using Scratch programming language, enhancing the learning experience.</li>
+         </ul>
+       </div>
+
+     <!---EDUCATION SECTION-->
+     <div class="">
+       <h3 class="w3-border-amber">MY EDUCATION</h3>
+         <h4>Future Institute of Engineering and Management,WBUT</h4>
+         <p>March 2012 - July 2016 </p>
+         <p>Bachelor of Technology(IT)B.Tech(IT) results were obtained from 
+            The Maulana Abul Kalam Azad University of Technology (formerly known as the West Bengal University of Technology) and my GPA is 7.8.</p>
+     </div>
+
+     <!--SKILLS SECTION-->
+     <div class="">
+       <h3 class="w3-border-amber">MY SKILLS</h3>
+       <!--SOFT SKILLS-->
+       <h4>Programming Languages:</h4>
+       <ul class="w3-ul" style="font-weight: 500;">
+       <li>PHP</li>
+       <li>JavaScript</li>
+       <li>Node.js</li>
+       <li></li>
+       </ul>
+       <!--TECHNICAL SKILLS-->
+       <h4>Frameworks and Libraries:</h4>
+         <ul class="w3-ul" style="font-weight: 500;">
+          <li>Codeigniter</li>
+          <li>Laravel</li>
+          <li>Express.js</li>
+          <li>jQuery</li>
+         </ul>
+         <h4>Software Development Tools:</h4>
+         <ul class="w3-ul" style="font-weight: 500;">
+          <li>Git</li>
+          <li>Postman</li>
+          <li>G Suite</li>
+         </ul>
+         <h4>Databases:</h4>
+         <ul class="w3-ul" style="font-weight: 500;">
+          <li>PostgreSQL</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+         </ul>
+         <h4>Server & Server Management and Monitoring:</h4>
+         <ul class="w3-ul" style="font-weight: 500;">
+          <li>Nginx</li>
+          <li>Apache</li>
+          <li>Nginx Log Analysis,Prometheus,Grafana</li>
+         </ul>
+     </div>
+<div class="">
+       <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+         <ul class="w3-ul" style="font-weight: 500;">
+           <li>I love mountain hiking and cycling in my free time</li>
+           <li>I like to play board games with other people</li>
+         </ul>
+     </div>
+     </div>
+   <!--CONTACT SECTION-->
+   <div class="content">
+    <h2 id="contact">CONTACT</h2>DETAILS</h3>
+    <div class="w3-margin-top-2" style="font-weight: 500;">
+      <p>Name: Saptarshi Chakraborty</p>
+      <p>Address: Kolkata,WB India</p>
+      <p>Phone Number: 7059470796</p>
+      <p>E-mail: saptarshi34.sc@gmail.com</p>
+    </div>
+  </div>
+
+ <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+   <p>© 2025 - Saptarshi</p>
+ </footer>
+
+ <!--END OF CV SECTION-->
+</section>      
+</section>
+<script src="https://unpkg.com/feather-icons"></script>
+<script>feather.replace();</script>
+<script>
+// Function to toggle mobile navigation
+function toggleNavigation() {
+ let nav = document.getElementById("mobile-nav");
+ if (nav.classList.contains('w3-show')) {
+   nav.classList.remove('w3-show');
+ } else { 
+   nav.classList.add('w3-show');
+ }
+}
+</script>
+</body>
+</html>
