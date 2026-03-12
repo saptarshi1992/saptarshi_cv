@@ -1,232 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saptarshi</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://unpkg.com/feather-icons"></script>
-    <style>
-      body {
-        font-family: 'Montserrat', sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #f4f4f4;
-      }
-      .sidebar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 250px;
-        height: 100vh;
-        background: #222;
-        color: white;
-        padding: 20px;
-        text-align: center;
-        overflow-y: auto;
-      }
-      .sidebar img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        border: 3px solid white;
-      }
-      .sidebar nav a {
-        display: block;
-        padding: 10px;
-        text-decoration: none;
-        color: white;
-        transition: 0.3s;
-      }
-      .sidebar nav a:hover {
-        color: #ffcc00;
-      }
-      .content {
-        margin-left: 270px;
-        padding: 20px;
-      }
-      .mobile-nav {
-        display: none;
-      }
-      @media (max-width: 768px) {
-        .sidebar {
-          position: relative;
-          width: 100%;
-          height: auto;
-          text-align: center;
-          padding-bottom: 10px;
-        }
-        .content {
-          margin-left: 0;
-        }
-        .mobile-nav {
-          display: block;
-          text-align: center;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="sidebar">
-      <img src="avatar.jpg" alt="Avatar">
-      <h2>Saptarshi Chakraborty</h2>
-      <p>Software Developer</p>
-      <nav>
-        <a href="#about">ABOUT</a>
-        <a href="#resume">RESUME</a>
-        <a href="#contact">CONTACT</a>
-        <a href="https://sites.google.com/view/thesaptarshi/projects?authuser=0">PROJECTS</a>
-        <a href="https://sites.google.com/view/thesaptarshi/lessons-and-notes?authuser=0">NOTES</a>
-        <a href="https://sites.google.com/view/thesaptarshi/certificates?authuser=0">CERTIFICATES</a>
-        <a href="https://drive.google.com/file/d/1jXzNxwuToiqVPU8BiZVmhD4g0l8cw3_k/view" target="_blank" class="w3-button w3-amber w3-round-large">DOWNLOAD CV</a>
-      </nav>
-      <div class="w3-margin-top">
-        <!-- <a href="#facebook" target="_blank"><i data-feather="facebook"></i></a> -->
-        <!-- <a href="#instagram" target="_blank"><i data-feather="googlesite"></i></a> -->
-        <a href="https://github.com/saptarshi1992" target="_blank"><i data-feather="github"></i></a>
-        <a href="https://www.linkedin.com/in/saptarshi-chakraborty-033991148/" target="_blank"><i data-feather="linkedin"></i></a>
-      </div>
-    </div>
-    <div class="content">
-      <h2 id="about">About</h2>
-      <p>As a versatile and results-driven software engineer, I bring a wealth of experience from my time at the National Digital Library of India. 
-        My work has focused on developing and optimizing digital platforms that empower educational initiatives, including UI and database design, multi-lingual support, data acquisition, and automating content management.Currently,
-        I am passionate about the MERN stack and am honing my skills in Node.js, Express, MongoDB, and React. </p>
-      <p>My goal is to leverage these modern technologies to create dynamic and efficient web applications that deliver outstanding user experiences.My commitment to excellence drives me to continuously expand my skill set and stay updated with the latest trends in web development.
-        I thrive in collaborative environments where I can contribute innovative solutions and drive meaningful projects.Let's connect and discuss how my expertise in web development and my interest in the MERN stack can bring value to your next project!</p>
-      <h2 id="resume">Resume</h2>
-       <!--EMPLOYMENT HISTORY SECTION-->
-      <h3 class="w3-border-amber">MY EMPLOYMENT HISTORY</h3>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saptarshi Chakraborty | Full-Stack Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
 
-    <!-- NDLI EXPERIENCE -->
-    <div>
-      <h4>Software Engineer at the <a href="https://www.ndl.gov.in/">National Digital Library of India</a></h4>
-      <p>August 2018 - Present</p>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Saptarshi<span>.sc</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact" class="btn-nav">Let's Connect</a></li>
+            </ul>
+        </div>
+    </nav>
 
-      <!-- Job Description -->
-      <p style="font-weight: 500;">
-        As a Software Engineer at NDLI, I contribute to the development of large-scale digital education systems used by
-        millions.
-        My role includes backend development, multilingual user experience enhancement, automation, metadata pipelines,
-        and building scalable applications that streamline digital learning workflows.
-      </p>
+    <header class="hero">
+        <div class="container grid">
+            <div class="hero-content reveal">
+                <p class="mono-text">Results-driven Software Engineer</p>
+                <h1>Saptarshi Chakraborty<span>.</span></h1>
+                <h2>Building Scalable Digital Education Systems.</h2>
+                <p class="bio-text">
+                    Versatile engineer with 6+ years of experience at the <strong>National Digital Library of India</strong>. Currently specializing in high-performance web applications using the <strong>MERN Stack</strong>.
+                </p>
+                <div class="cta-btns">
+                    <a href="#experience" class="btn primary">View My Work</a>
+                    <a href="mailto:saptarshi34.sc@gmail.com" class="btn secondary">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image reveal">
+                <div class="image-wrapper">
+                    <i class="fas fa-terminal"></i>
+                    <div class="tech-stack-float">Full-Stack Engineer</div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-      <!-- Work Responsibilities -->
-      <ul class="w3-ul" style="font-weight: 500;">
-        <li>Spearheaded the development of the NDLI School vertical, optimizing UI workflows and database structures.
-        </li>
-        <li>Enhanced the multilingual experience across both the NDLI website and mobile app.</li>
-        <li>Developed and maintained robust web data crawling pipelines to support large-scale content acquisition.</li>
-        <li>Automated metadata extraction and enrichment workflows to improve content ingestion efficiency.</li>
-        <li>Refined and maintained core NDLI website components and REST API modules for high-performance delivery.</li>
-        <li>Boosted system efficiency with caching solutions like APCu and Redis.</li>
-        <li>Automated critical internal processes using Shell scripting for improved operational efficiency.</li>
+    <section id="about" class="about">
+        <div class="container grid">
+            <div class="about-text reveal">
+                <h2 class="section-title"><span>01.</span> About Me</h2>
+                <p>My journey at the <strong>National Digital Library of India</strong> has been focused on empowering millions through digital learning. I contribute to the development of large-scale digital education systems used by millions. My role includes backend development, multilingual user experience enhancement, automation, metadata pipelines, and building scalable applications that streamline digital learning workflows.</p>
+                <p>Currently, I am deep-diving into the <strong>MERN stack</strong>—leveraging Node.js, React, and MongoDB to build the next generation of dynamic web applications.</p>
+                <p>My goal is to leverage these modern technologies to create dynamic and efficient web applications that deliver outstanding user experiences.My commitment to excellence drives me to continuously expand my skill set and stay updated with the latest trends in web development. I thrive in collaborative environments where I can contribute innovative solutions and drive meaningful projects.Let's connect and discuss how my expertise in web development and my interest in the MERN stack can bring value to your next project!</p>
+                <p>
+I am also working on <strong>AI-powered solutions</strong>, developing <strong>RAG-based chatbot systems</strong> that combine LLMs with structured knowledge retrieval. I am passionate about collaborating on AI projects and continuously expanding my expertise in <strong>Prompt Engineering</strong> and applied AI development.
+</p>
+                <div class="hobbies">
+                    <p><strong>When I'm not coding:</strong></p>
+                    <span class="tag"><i class="fas fa-mountain"></i> Mountain Hiking</span>
+                    <span class="tag"><i class="fas fa-bicycle"></i> Cycling</span>
+                    <span class="tag"><i class="fas fa-chess-board"></i> Board Games</span>
+                </div>
+            </div>
+            <div class="about-stats reveal">
+                <div class="stat-card">
+                    <h3>6+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-card">
+                    <h3>7.8</h3>
+                    <p>B.Tech GPA</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- NEW: Conference Management Application -->
-        <li>Developed a complete Conference Management Application enabling authors to submit papers,
-          reviewers to evaluate them, and administrators to manage the full workflow.</li>
-        <li>Implemented a user-friendly registration and submission module with clear tracking of submission status.
-        </li>
-        <li>Built a secure backend using PHP and PostgreSQL to manage conference operations and review cycles.</li>
-        <li>Integrated MongoDB GridFS to efficiently store and serve large research papers and documents.</li>
-        <li>Enhanced UI/UX using Bootstrap, jQuery, and custom components for a smooth author–reviewer–admin experience.
-        </li>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title"><span>02.</span> Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <i class="fas fa-code"></i>
+                    <h3>Languages</h3>
+                    <p>PHP, JavaScript (ES6+), Node.js</p>
+                </div>
+                <div class="skill-card reveal">
+                    <i class="fas fa-cubes"></i>
+                    <h3>Frameworks</h3>
+                    <p>Express.js, Laravel, Codeigniter, jQuery</p>
+                </div>
+                <div class="skill-card reveal">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                    <p>MongoDB (GridFS), PostgreSQL, MySQL, Redis</p>
+                </div>
+                <div class="skill-card reveal">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>DevOps & Monitoring</h3>
+                    <p>Nginx, Prometheus, Grafana, Shell Scripting</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <li>Committed to delivering exceptional user experiences and driving continuous improvement in digital education
-          resources.</li>
-      </ul>
-    </div>
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title"><span>03.</span> Employment History</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="date">Aug 2018 - Present</div>
+                    <h3>Software Engineer</h3>
+                    <h4>National Digital Library of India</h4>
+                    <p>Spearheading large-scale systems for millions of users.</p>
+                    <ul>
+                        <li>Developed a full-cycle <strong>Conference Management Application</strong> using PHP, PostgreSQL, and MongoDB GridFS.</li>
+                        <li>Spearheaded the development of the NDLI School vertical, optimizing UI workflows and database structures.
+		<li>Enhanced the multilingual experience across both the NDLI website and mobile app.</li>
+		<li>Developed and maintained robust web data crawling pipelines to support large-scale content acquisition.</li>
+		<li>Automated metadata extraction and enrichment workflows to improve content ingestion efficiency.</li>
+		<li>Refined and maintained core NDLI website components and REST API modules for high-performance delivery.</li>
+		<li>Boosted system efficiency with caching solutions like APCu and Redis.</li>
+		<li>Automated critical internal processes using Shell scripting for improved operational efficiency.</li>
+		<li>Optimized high-traffic delivery via Nginx log analysis and caching (Redis/APCu).</li>
+                    </ul>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="date">2012 - 2016</div>
+                    <h3>Bachelor of Technology (IT)</h3>
+                    <h4>Future Institute of Engineering and Management</h4>
+                    <p>GPA: 7.8 | Maulana Abul Kalam Azad University of Technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer id="contact">
+        <div class="container reveal">
+            <h2>Let's Build Something Great</h2>
+            <p>Based in Kolkata, India. Open to MERN stack opportunities and collaborative projects.</p>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +91 7059470796</p>
+                <p><i class="fas fa-envelope"></i> saptarshi34.sc@gmail.com</p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/saptarshi1992"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/saptarshi-chakraborty-033991148/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
 
-     <!---EDUCATION SECTION-->
-     <div class="">
-       <h3 class="w3-border-amber">MY EDUCATION</h3>
-         <h4>Future Institute of Engineering and Management,WBUT</h4>
-         <p>March 2012 - July 2016 </p>
-         <p>Bachelor of Technology(IT)B.Tech(IT) results were obtained from 
-            The Maulana Abul Kalam Azad University of Technology (formerly known as the West Bengal University of Technology) and my GPA is 7.8.</p>
-     </div>
-
-     <!--SKILLS SECTION-->
-     <div class="">
-       <h3 class="w3-border-amber">MY SKILLS</h3>
-       <!--SOFT SKILLS-->
-       <h4>Programming Languages:</h4>
-       <ul class="w3-ul" style="font-weight: 500;">
-       <li>PHP</li>
-       <li>JavaScript</li>
-       <li>Node.js</li>
-       <li></li>
-       </ul>
-       <!--TECHNICAL SKILLS-->
-       <h4>Frameworks and Libraries:</h4>
-         <ul class="w3-ul" style="font-weight: 500;">
-          <li>Codeigniter</li>
-          <li>Laravel</li>
-          <li>Express.js</li>
-          <li>jQuery</li>
-         </ul>
-         <h4>Software Development Tools:</h4>
-         <ul class="w3-ul" style="font-weight: 500;">
-          <li>Git</li>
-          <li>Postman</li>
-          <li>G Suite</li>
-         </ul>
-         <h4>Databases:</h4>
-         <ul class="w3-ul" style="font-weight: 500;">
-          <li>PostgreSQL</li>
-          <li>MySQL</li>
-          <li>MongoDB</li>
-         </ul>
-         <h4>Server & Server Management and Monitoring:</h4>
-         <ul class="w3-ul" style="font-weight: 500;">
-          <li>Nginx</li>
-          <li>Apache</li>
-          <li>Nginx Log Analysis,Prometheus,Grafana</li>
-         </ul>
-     </div>
-<div class="">
-       <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
-         <ul class="w3-ul" style="font-weight: 500;">
-           <li>I love mountain hiking and cycling in my free time</li>
-           <li>I like to play board games with other people</li>
-         </ul>
-     </div>
-     </div>
-   <!--CONTACT SECTION-->
-   <div class="content">
-    <h2 id="contact">CONTACT</h2>DETAILS</h3>
-    <div class="w3-margin-top-2" style="font-weight: 500;">
-      <p>Name: Saptarshi Chakraborty</p>
-      <p>Address: Kolkata,WB India</p>
-      <p>Phone Number: 7059470796</p>
-      <p>E-mail: saptarshi34.sc@gmail.com</p>
-    </div>
-  </div>
-
- <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
-   <p>© 2025 - Saptarshi</p>
- </footer>
-
- <!--END OF CV SECTION-->
-</section>      
-</section>
-<script src="https://unpkg.com/feather-icons"></script>
-<script>feather.replace();</script>
-<script>
-// Function to toggle mobile navigation
-function toggleNavigation() {
- let nav = document.getElementById("mobile-nav");
- if (nav.classList.contains('w3-show')) {
-   nav.classList.remove('w3-show');
- } else { 
-   nav.classList.add('w3-show');
- }
-}
-</script>
+    <script src="script.js"></script>
 </body>
 </html>
